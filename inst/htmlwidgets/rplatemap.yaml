@@ -1,0 +1,37 @@
+ dependencies:
+  - name: jquery
+    version: 3.6.3
+    src: htmlwidgets/lib/jquery-3.6.3
+    script:
+      - jquery.min.js
+  - name: select2
+    version: 4.0.13
+    src: htmlwidgets/lib/select2-4.0.13
+    script:
+      - select2.min.js
+    stylesheet: 
+      - select2.css
+  - name: clipboard
+    version: 2.0.11
+    src: htmlwidgets/lib/clipboard-2.0.11
+    script:
+      - clipboard.min.js
+  - name: jquery-ui-dist
+    version: 1.13.2
+    src: htmlwidgets/lib/jquery-ui-dist-1.13.2
+    script:
+      - jquery-ui.min.js
+    stylesheet:
+      - jquery-ui.min.css
+  - name: svgjs
+    version: 2.6.2
+    src: htmlwidgets/lib/svgjs-2.6.2
+    script:
+      - svg.min.js
+  - name: plate-map
+    version: 2.0.6
+    src: htmlwidgets/lib/plate-map-2.0.6
+    script:
+      - plate-map.min.js
+    stylesheet:
+      - plate-map.min.css
