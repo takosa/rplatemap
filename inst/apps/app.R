@@ -2,7 +2,14 @@ library(shiny)
 library(rplatemap)
 
 ui <- fluidPage(
-  rplatemapOutput("pm")
+  sidebarLayout(
+    sidebarPanel = sidebarPanel({
+      rplatemapOutput("pm", width = "100%", height = "800px")
+    }, width = 7),
+    mainPanel = mainPanel({
+      
+    }, width = 5)
+  )
 )
 
 server <- function(input, output, session) {
